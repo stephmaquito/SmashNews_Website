@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Videos</title>
+
+	<link rel="stylesheet" type="text/css" href="Videos.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="icon" href="Images/SapienceLogo.png">
+
+<script src="https://kit.fontawesome.com/cdee8ca23c.js" crossorigin="anonymous"></script>	
+
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav id="mainnav">
+		
+		<img class="logo" src="Images/trlogo.png" alt="logo">
+		<nav id="list">
+			<ul class="navlist">
+				<li><a href="Home.html">Home</li>
+				<li><a href="Smash News.html">Game</li>
+				<li><a class="current" href="Videos.html">Videos</li>
+				<li><a href="About.html">Creator</li>
+				
+			</ul>
+		</nav>
+			<a class="dld" href="Download.html"><button>DOWNLOAD</button></a>
+		
+</nav>
+
+
+
+
+<div class="Title">
+  Game Snippets 
+</div>
+
+
+  <div class="VidPlaylist">
+   <div class="container">
+        <div id="video_player">
+            <video controls poster="" class="video" id="video">
+                <source src="Videos/SNclip1.mp4" type="video/mp4">
+                <source src="Videos/SNclip1.mp4" type="video/mp4">
+            </video>
+            <div class="scrollBox">
+                <div class="box">
+                    <img src="Images/GameplayTN.png">
+                    <div class="box-content">
+                        <h3>Sample Gameplay</h3>
+                        <a href="Videos/SNclip1.mp4" class="btn">Watch</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/V_Trailer.png">
+                    <div class="box-content">
+                        <h3>Game Trailer</h3>
+                        <a href="Videos/Trailer.mp4"class="btn">Watch</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/V_Infomercial.png">
+                    <div class="box-content">
+                        <h3>Infomercial</h3>
+                        <a href="Videos/Infomercial.mp4" class="btn">Watch</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/V_TripleI.png">
+                    <div class="box-content">
+                        <h3>Problems // Cause and Effects</h3>
+                        <a href="Videos/TripleI.mp4"class="btn">Watch</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/V_ProductPitching.png">
+                    <div class="box-content">
+                        <h3>Product Pitching</h3>
+                        <a href="Videos/ProductPitching.mp4" class="btn">Watch</a>
+                    </div>
+                </div>
+                <div class="box">
+                  <div class="Music1">
+                    <img src="Images/Notes1.png" >
+                  </div>
+                    <div class="box-content">
+                        <h3>Sapience Original Music</h3>
+                        <a href="Videos/SNclip2.mp4" class="btn">Watch</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="Images/Notes2.png" class="Music2">
+                    <div class="box-content">
+                        <h3>Another Sapience Original Music</h3>
+                        <a href="Videos/SNclip3.mp4" class="btn">Watch</a>
+                    </div>
+                </div>
+                <!--<div class="box">
+                    <img src="./img/4.png">
+                    <div class="box-content">
+                        <h3>Sapience Original Music</h3>
+                        <a href="./media/4.m4v" class="btn">Watch</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./img/5.png">
+                    <div class="box-content">
+                        <h3>Another Sapience Original Music</h3>
+                        <a href="./media/5.m4v"class="btn">Watch</a>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+    <!-- ###########################javascript for vidoe Player################ -->
+
+    <script type="text/javascript">
+        let anchors = document.querySelectorAll('div .btn');
+    let links = [...anchors];
+    
+    for (let i=0; i<links.length; i++) {
+        links[i].onclick = handler;
+    }
+    function handler(e) {
+        e.preventDefault();
+        let videotarget = this.getAttribute("href");
+        let filename = videotarget.substr(0, videotarget.lastIndexOf('.'));
+        let video = document.getElementById("video");
+        video.removeAttribute("poster");
+        let source = document.querySelectorAll("#video_player video source");
+        source[0].src = filename + ".mp4";
+        source[1].src = filename + ".m4v";
+        video.load();
+        video.play();
+    }
+    </script>
+
+
+
+</script>
+
+
+
+
+
+
+
+
+<div class="Footer">
+        <footer>
+            <div class="Contacts">
+
+              <div class="Icon Location">
+                <div class="IconText" id="Loc">
+                    010 Parola St., Brgy. San Andres, Cainta Rizal
+                </div>
+                <span><i class="fas fa-map-marker-alt"></i></span>
+              </div>
+
+              <div class="Icon Tell">
+                  <div class="IconText" id="TelNo">
+                        (02) 781-0333
+                  </div>
+                  <span><i class="fas fa-tty"></i></span>
+             </div>
+
+             <div id="FBLINK">
+            <a href="https://www.facebook.com/Smash-News-104943335038262/">
+             <div class="Icon Facebook">
+                  <div class="IconText" id="FB">
+                        Smash News
+                    </div>
+                    <span><i class="fab fa-facebook-f"></i></span>
+              </div>
+             </a> 
+           </div>
+
+            <div id="GMAILLINK">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sapience@gmail.com">
+            <div class="Icon Gmail">
+                <div class="IconText" id="Gmail">
+                    sapience@gmail.com 
+                </div>
+                <span><i class="fas fa-envelope"></i></span>
+            </div>
+            </a>
+          </div>
+
+          <div id="SBLOG">
+            <a href="Blog.html">
+            <div class="Icon Blog">
+                <div class="IconText" id="Blog">
+                    Sapience Blog 
+                </div>
+                <span><i class="fab fa-blogger-b"></i></span>
+            </div>
+            </a>
+          </div>
+
+            </div>
+            <p class="copyright">Sapience Company © 2021</p>
+        </footer>
+    </div>
+
+</body>
+</html>

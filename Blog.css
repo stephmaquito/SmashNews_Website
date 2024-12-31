@@ -1,0 +1,744 @@
+nav, body{
+	background-color: #0F0325;
+}
+ html{
+ 	overflow-x: hidden;
+ }
+
+/*NAVBAR*/
+button {
+	font-family: 'DotGothic16', sans-serif;
+	text-decoration: none;
+
+}
+
+nav > li, a {
+	font-family: 'DotGothic16', sans-serif;
+	text-decoration: none;
+
+}
+
+#mainnav a, a:hover, a:focus, a:active a:link{
+      text-decoration: none;   
+ }
+
+#mainnav{
+	position: fixed;
+	z-index: 12;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 2%;
+	margin-top: 0px;
+	font-family: 'DotGothic16', sans-serif;
+	text-decoration: none;
+}
+
+
+
+
+.logo{
+	width: 16%;
+	height: 10%;
+}
+
+.navlist{
+	list-style: none;
+
+	font-family: 'DotGothic16', sans-serif;
+	text-decoration: none;
+}
+
+.navlist li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.navlist li a {
+	transition: all 0.3s ease 0s;
+}
+
+.navlist li a:hover{
+	color: #56C2C6;
+}
+
+button{
+	padding: 9px 25px;
+	background-color: #7189A7;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+
+	font-family: 'DotGothic16', sans-serif;
+	text-decoration: none;
+}
+
+button:hover
+{
+  box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+              0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+  text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;            
+}
+
+
+button:focus {
+    outline: none;
+}
+
+
+
+
+/*END OF NAVBAR*/
+
+/*Scrollbar*/
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #3F4344;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #D9DCDC;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5453B4;
+}
+
+
+
+
+/*END OF Scrollbar*/
+
+
+/* First Part/ TOP PART */
+
+
+
+.Sap{
+	color: white;
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+	font-size: 60px;
+	margin-top: 10px;  
+	margin-left: 20%;
+	margin-right: 20%;
+	transition: 0.5s;
+
+}
+
+
+.Blog:hover .Sap{
+    color: black;
+}
+
+
+/*SAPIENCE INFO*/
+.Sapience{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+/*END OF SAPIENCE INFO*/
+
+
+/*BLOG PART*/
+
+.Blog{
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 80%;
+	height: 60%;
+	transition: 0.5s;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+}
+
+#List{
+	margin: 30px;
+	background: none;
+	line-height: 40px;
+	text-decoration-color: black;
+
+}
+
+
+
+#BlogTitle{
+	margin: 20px;
+	font-size: 40px;
+	font-family: 'DotGothic16', sans-serif;
+	text-align: center;
+}
+
+
+#List li span:hover{
+	background-color: black;
+	color: white;
+}
+
+
+.Blog:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -15px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Blog:hover{
+    background-color: #979A9A;
+    color: black;
+}
+
+.Blog:hover li span{
+    color: black;
+}
+
+
+/*END OF BLOG PART*/
+
+
+
+
+/* Notebooks */
+
+
+/* For all sections */
+html {
+  scroll-behavior:smooth;
+}
+
+#List li a{
+	color: white;
+	background-color: none;
+	vertical-align: center;
+}
+
+body {
+  margin:0px;
+  padding:0px;
+  font-family:"Open Sans",sans-serif;
+}
+
+section {
+  width: 99%;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section a {
+  background:#eee;
+  margin: 20px ;
+  font-size:16px;
+  text-decoration:none;
+  margin:10px;
+  padding:10px 20px;
+  border-radius:30px;
+  color:#111;
+  position: relative;
+  
+}
+
+
+
+
+
+
+h2{
+	background: none;
+}
+
+
+p{
+	font-size: 14px;
+	line-height: 24px;
+	background: none;
+}
+
+
+input{
+	display: none;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* END OF For all sections */
+
+
+#Viernes_Maquito{
+	margin-top: 15%;
+}
+
+
+
+
+
+
+.VM_DocuContents, 
+.CS_DocuContents,
+.TB_DocuContents,
+.DB_DocuContents,
+.AD_DocuContents
+ {
+	margin-top: 60px;
+	display: flex;
+	height: 80%;
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+	font-family: "Roboto", sans-serif;
+}
+
+
+#VM_Cover, 
+#CS_Cover,
+#TB_Cover,
+#DB_Cover,
+#AD_Cover
+
+{
+	height: 80%;
+	width: 30%;
+}
+
+.VM_Main, 
+.CS_Main, 
+.TB_Main,
+.DB_Main,
+.AD_Main
+
+{
+	height: 90%;
+	width: 30%;
+	position: relative;
+	perspective: 1500px;
+	margin-top: 50px;
+}
+
+.VM_Pics, 
+.CS_Pics,
+.TB_Pics,
+.DB_Pics,
+.AD_Pics
+
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	transform-rotate:(0deg);
+	transition: .5s;
+	color: #000;
+}
+
+
+.VM_Description, 
+.CS_Description,
+.TB_Description, 
+.DB_Description, 
+.AD_Description 
+
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 10px 13px;
+	box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 2px 5px rgba(0,0,0,.5);
+
+
+
+}
+
+ 
+	
+
+#VM_Fpage,
+#CS_Fpage, 
+#TB_Fpage,
+#DB_Fpage,
+#AD_Fpage{
+	
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	transform-rotate:(0deg);
+	transition: .5s;
+	color: #000;
+}
+	
+
+
+.VM_back, 
+.CS_back,
+.TB_back,
+.DB_back,
+.AD_back
+
+ {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+	background-color: #000;
+
+}
+
+
+.VM_next-btn, 
+.CS_next-btn,
+.TB_next-btn,
+.DB_next-btn,
+.AD_next-btn
+  {
+	position: absolute;
+	bottom: 13px;
+	right: 13px;
+	cursor: pointer;
+	color: #000;
+	background: none;
+
+}
+
+
+.VM_back-btn, 
+.CS_back-btn,
+.TB_back-btn,
+.DB_back-btn,
+.AD_back-btn
+ {
+	position: absolute;
+	bottom: 13px;
+	right: 13px;
+	cursor: pointer;
+	color: gray;
+	background: none;
+}
+
+#VM_Page1, 
+#CS_Page1,
+#TB_Page1,
+#DB_Page1,
+#AD_Page1
+{
+	z-index: 3;
+}
+
+
+#VM_Page2, 
+#CS_Page2,
+#TB_Page2,
+#DB_Page2,
+#AD_Page2
+{
+	z-index: 2;
+}
+
+
+#VM_Page3, 
+#CS_Page3,
+#TB_Page3,
+#DB_Page3,
+#AD_Page3
+
+{
+	z-index: 1;
+}
+
+#VM_checkbox1:checked ~ .VM_Main #VM_Page1, 
+#CS_checkbox1:checked ~ .CS_Main #CS_Page1,
+#TB_checkbox1:checked ~ .TB_Main #TB_Page1,
+#DB_checkbox1:checked ~ .DB_Main #DB_Page1,
+#AD_checkbox1:checked ~ .AD_Main #AD_Page1
+
+
+{
+	transform: rotateY(-180deg);
+	z-index: 1;
+}
+
+#VM_checkbox2:checked ~ .VM_Main #VM_Page2,
+#CS_checkbox2:checked ~ .CS_Main #CS_Page2,
+#TB_checkbox2:checked ~ .TB_Main #TB_Page2,
+#DB_checkbox2:checked ~ .DB_Main #DB_Page2,
+#AD_checkbox2:checked ~ .AD_Main #AD_Page2
+
+{
+	transform: rotateY(-180deg);
+	z-index: 2;
+}
+
+#VM_checkbox3:checked ~ .VM_Main #VM_Page3,
+#CS_checkbox3:checked ~ .CS_Main #CS_Page3,
+#TB_checkbox3:checked ~ .TB_Main #TB_Page3,
+#DB_checkbox3:checked ~ .DB_Main #DB_Page3,
+#AD_checkbox3:checked ~ .AD_Main #AD_Page3
+{
+	transform: rotateY(-180deg);
+	z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* END OF NOTEBOOKS */
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+body{
+  margin: 0;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 15px 0;
+  color:#4b4c4d;
+  height: 5%;
+  /*background-color: #000;*/
+  background-image: url("Images/footerbg.png");
+}
+
+
+ .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+
+
+
+
+.Icon{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
+
+.Contacts{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Contacts .Icon{
+  margin: 0 20px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.Contacts .Icon span{
+  display: block;
+  height: 60px;
+  width: 60px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+
+.Contacts .Icon span i{
+  line-height: 60px;
+  font-size: 25px;
+}
+.Contacts .Icon .IconText{
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+  color: #fff;
+  padding: 10px 18px;
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 25px;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.Contacts .Icon #Loc{
+  font-size: 15px;
+  width: 400%;
+  font-family: 'Russo One', sans-serif;
+}
+
+.Contacts .Icon #TelNo{
+  font-size: 16px;
+  width: 200%;
+  font-family: 'Russo One', sans-serif;
+}
+
+
+.Contacts .Icon #FB{
+  font-size: 18px;
+  width: 200%;
+  font-family: 'Russo One', sans-serif;
+}
+
+
+#FBLINK  a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+.Contacts .Icon #Gmail{
+  font-size: 20px;
+  width: 400%;
+  font-family: 'Russo One', sans-serif;
+}
+
+#GMAILLINK  a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+ .Contacts .Icon #BlogF{
+  font-size: 20px;
+  width: 300%;
+  font-family: 'Russo One', sans-serif;
+}
+
+#SBLOG  a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+
+
+.Contacts .Icon:hover .IconText{
+  top: -70px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.Contacts .IconText:before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%) rotate(45deg);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.Contacts .Icon:hover span{
+  color: #fff;
+}
+.Contacts .Icon:hover span,
+.Contacts .Icon:hover .IconText{
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.Contacts .Location:hover span,
+.Contacts .Location:hover .IconText,
+.Contacts .Location:hover .IconText:before{
+  background: #333;
+}
+.Contacts .Tell:hover span,
+.Contacts .Tell:hover .IconText,
+.Contacts .Tell:hover .IconText:before{
+  background: #46C1F6;
+}
+.Contacts .Cell:hover span,
+.Contacts .Cell:hover .IconText,
+.Contacts .Cell:hover .IconText:before{
+  background: #e1306c;
+}
+.Contacts .Facebook:hover span,
+.Contacts .Facebook:hover .IconText,
+.Contacts .Facebook:hover .IconText:before{
+  background: #3B5999;
+}
+.Contacts .Gmail:hover span,
+.Contacts .Gmail:hover .IconText,
+.Contacts .Gmail:hover .IconText:before{
+  background: #DE463B;
+}
+
+.Contacts .BlogF:hover span,
+.Contacts .BlogF:hover .IconText,
+.Contacts .BlogF:hover .IconText:before{
+  background: #798c8a;
+}
+
+
+/*END OF FOOTER*/

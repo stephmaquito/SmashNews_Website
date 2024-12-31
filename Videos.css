@@ -11,6 +11,8 @@ body, nav{
 nav > li, a{
 	font-family: 'DotGothic16', sans-serif;
 	text-decoration: none;
+  background-color: initial;
+  color: #7189A7;
 
 }
 
